@@ -1,0 +1,549 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{ 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: rgb(50, 49, 57);
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    display: flex;
+    padding: 2rem 0;
+    width: 1300px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+header a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+.menu li{
+    list-style: none;
+}
+.menu li:hover{
+    text-decoration: underline;
+    color: goldenrod;
+    text-underline-offset: 1rem;
+}
+.menu li a:hover{
+    color: goldenrod;
+}
+a{
+    transition: all 300ms ease;
+}
+.menu .nav-list{
+    display: flex;
+    gap: 3rem;
+}
+
+  .nav-links {
+    list-style: none;
+  }
+  
+  .nav-link:link,
+  .nav-link:visited {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #555768;
+  }
+  
+  .nav-link:hover,
+  .nav-link:active {
+    color: #313bac;
+    border-bottom: 2px solid #2b2d42;
+    cursor: pointer;
+  }
+  .toggle-bar{
+    color: goldenrod;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+  }
+  
+  .dropdown-menu{
+    display: none;
+    position: absolute;
+    right: 2rem;
+    top: 60px;
+    height: 0;
+    width: 300px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: height .2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  .dropdown-menu.open{
+    height: 240px;
+  }
+  .dropdown-menu li{
+    padding: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.logo a{
+    font-size: 2rem;
+    color: white;
+}
+.icon {
+    width: 30px;
+}
+.hero-section{
+    padding-top: 4rem;
+}
+.about{
+    width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    gap: 3rem;
+    justify-content: space-between;
+}
+.second-heading{
+    font-size: xx-large;
+    color: lightgray;
+}
+.name{
+    font-size: xx-large;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color: white;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: goldenrod;
+}
+.mypic{
+    width: 460px;
+    border-radius: 50%;
+}
+.para-info{
+    font-size: 22px;
+    color: grey;
+    width: 250px;
+}
+.h4-about1{
+    font-size: x-large;
+    color: white; 
+}
+.para-about1{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: x-large;
+    color: grey; 
+    width: 320px;
+}
+.show-more a{
+    text-decoration: none;
+    color: goldenrod;
+    font-size: x-large;
+}
+.social-icons .fa-brands{
+    padding-top: 2rem;
+    color: goldenrod;
+    font-size: x-large;
+    padding-right: 1rem;
+}
+.social-icons .fa-brands:hover{
+    font-size: larger;
+}
+.head-proj{
+    font-size: xx-large;
+    color: white;
+    width: 320px;
+}
+.para-proj{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 1.5rem;
+    color: grey; 
+    width: 320px;
+}
+.article-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 400px;
+}
+.article-container h3{
+    color: goldenrod;
+    font-size: xx-large;
+    padding-bottom: 0.5rem;
+    display: inline;
+}
+.article-container h3 span{
+    color: goldenrod;
+    font-size: xx-large;
+}
+.article-container p{
+    padding-bottom: 1rem;
+    font-size: medium;
+    color: grey; 
+}
+.our-services{
+    margin-right: 4rem;
+}
+.our-services h4{
+    font-size: large;
+    padding-bottom: 0.3rem;
+    color: white;
+}
+.our-services p{
+    color: grey;
+    font-size: medium;
+}
+.our-services img{
+    width: 100px;
+}
+.proj-container{
+    display: flex;
+    width: 1300px;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding-top: 4rem;
+}
+.service-container{
+    display: flex;
+    gap: 1rem;
+    padding-bottom: 2rem;
+    /* border: 1px solid grey; */
+    border-bottom: 1px solid grey;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+.arrow{
+    position: relative;
+    left: 4rem;
+}
+.arrow1{
+    position: relative;
+    left: 4.3rem;
+}
+.fa-solid{
+    color: goldenrod; 
+}
+.cards{
+    border: 1px solid rgb(50, 49, 57);
+    background: rgb(72, 71, 82);
+    width: 300px;
+    height: 15rem;
+    color: white;
+    padding: 2rem;
+    text-align: left;
+}
+.cards h4{
+    font-size: x-large;
+    padding-bottom: 2rem;
+}
+.cards p{
+    font-size: medium;
+}
+.cards img{
+    width: 40px;
+    padding-bottom: 1rem;
+}
+.cards-container{
+    padding-top: 4rem;
+    display: flex;
+    width: 1300px;
+    margin: 0 auto;
+    gap: 2rem;
+    justify-content: center;
+}
+.cards1{
+    border: 1px solid rgb(50, 49, 57);
+    background: rgb(42, 42, 56);
+    width: 350px;
+    height: 25rem;
+    color: white;
+    padding: 2rem;
+    flex-basis: 25%;
+    font-size: x-large;
+    text-align: start;
+    box-shadow: 2px 6px 10px 1px rgba(1,1,1,0.2), -2px -3px 10px 1px rgba(1,1,1,0.2);
+}
+.cards1:hover{
+    
+    box-shadow: none;
+}
+.cards1 img{
+   max-width: 280px;
+   max-height: 280px;
+}
+.cards1 h4{
+    margin-top: 2rem;
+}
+.portfolio-cards{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 5rem;
+    gap: 8rem;
+    width: 1300px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.testi-head,.proj-head{
+    font-size: xx-large;
+    color: white;
+    padding-top: 4rem;
+    margin-left: 7rem;
+}
+.testi-pic img{
+    width: 300px;
+    height: 300px;
+}
+.testi-container{
+    display: flex;
+    padding-top: 4rem;
+    gap: 2rem;
+    width: 1300px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.mySlides .fa-solid,.mySlides{
+    padding-bottom: 1rem;
+    font-size: xx-large;
+}
+.mySlides p,.mySlides p{
+    color: grey;
+    font-size: large;
+    padding-bottom: 2rem;
+    width: 400px;
+  
+}
+.mySlides h4 ,.mySlides h4{
+    font-size: x-large;
+    color: white;
+}
+
+.testi-container {
+    max-width: 1300px;
+    position: relative;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+    border-bottom: 2px solid grey;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+.btn-container {
+    padding-top: 2rem;
+    display: flex;
+    justify-content: start;
+    gap: 1rem;
+}
+.btn {
+    font-weight: 600;
+    transition: all 300ms ease;
+    padding: 1rem;
+    width: 8rem;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+.btn-color-2{
+    color: goldenrod;
+    background-color: rgb(50, 49, 57);
+    border: 1px solid goldenrod;
+}
+.btn-color-1{
+    background-color: goldenrod;
+}
+.contact-h4{
+    color: white;
+    font-size: xx-large;
+    width: 350px;
+}
+.contact-para{
+    font-size: medium;
+    color: grey;
+    padding-top: 2rem;
+    width: 280px;
+}
+.contact-container{
+    padding-top: 4rem;
+    height: 25rem;
+}
+.contact{
+    /* height: 25rem; */
+    border-bottom: 1px solid grey;
+}
+.contact1{
+    width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    gap: 8rem;
+}
+.form1{
+    padding-top: 4rem;
+}
+form{
+    line-height: 2rem;
+    height: 20rem;
+}
+input{
+    display: block;
+    padding-bottom: 0.5rem;
+    width: 410px;
+    font-weight: 600;
+    font-size: medium;
+}
+label{
+    color: goldenrod;
+    display: block;
+}
+textarea{
+    width: 410px;
+    height: 7rem;
+    font-weight: 600;
+    font-size: medium;
+}
+.submit-btn{
+    font-weight: 600;
+    transition: all 300ms ease;
+    padding: 0.8rem;
+    width: 7rem;
+    border-radius: 1px;
+    cursor: pointer;
+    color: goldenrod;
+    background-color: rgb(42, 42, 56);
+}
+.queries-container{
+    padding-top: 4rem;
+}
+.queries{
+    display: flex;
+    padding-bottom: 2rem;
+    font-size: large;
+    color: white;
+    gap: 1rem;
+}
+.queries a{
+    text-decoration: none;
+    color: white;
+}
+.queries .fa-solid,.fa-brands{
+    color: goldenrod;
+    font-size: 2rem;
+}
+/* footer */
+.link-list{
+    line-height: 1.5rem;
+}
+.link-list li{
+    list-style: none;
+}
+.link-list li a{
+    text-decoration: none;
+    color: goldenrod;
+}
+.link-list li a:hover{
+    color: white;
+}
+.link-list h5{
+    font-size: medium;
+    color: rgb(158, 148, 148);
+}
+.footer-container{
+    padding: 2rem 0;
+    width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.copyright{
+    line-height: 1rem;
+}
+.copyright h4{
+    color: rgb(158, 148, 148);
+    font-size: medium;
+}
+.copyright p{
+    color: white;
+    font-size: large;
+    padding-top: 2rem;
+}
+.logo a{
+    text-decoration: none;
+}

@@ -1,0 +1,420 @@
+@media (max-width:1130px) {
+    .about{
+        max-width: 65rem;
+        margin: 2rem auto;
+        gap:2rem;
+    }
+
+    .name,.second-heading,.head-proj,.contact-h4 {
+        font-size: x-large;
+    }
+    .cards h4{
+        font-size: large;
+    }
+    .para-info,.para-proj,.our-services h4,.h4-about1,.para-about1,.show-more a,.social-icons .fa-brands{
+        font-size: large;
+    }
+    .our-services p,.cards p{
+        font-size: small;
+    }
+    .mypic{
+        width: 400px;
+    }
+    .proj-container{
+        max-width: 65rem;
+        margin: 2rem auto;
+    }
+    .cards-container{
+        max-width: 65rem;
+        margin: 2rem auto;
+        gap: 1rem; 
+    }
+    .portfolio-cards{
+        max-width: 65rem;
+        margin: 2rem auto;
+        gap: 4rem;
+    }
+    .testi-container{
+        max-width: 65rem;
+        margin: 2rem auto;
+        gap: 1rem;
+    }
+    .contact1{
+        max-width: 65rem;
+        margin: 2rem auto;
+        gap: 4rem;
+    }
+    .footer-container{
+        max-width: 65rem;
+        margin: 2rem auto;
+    }
+    header{
+        max-width: 65rem;
+    }
+    .nav-bar{
+        display: none;
+    }
+    .toggle-bar{
+        display: block;
+    }
+    .dropdown-menu{
+        display: block;
+    }
+}
+@media (max-width:1088px) {
+    .about{
+        max-width: 54rem;
+        margin: 2rem auto;
+        gap:2rem;
+        flex-basis: 50%;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .about1{
+        margin: 0 auto;
+        margin-right: 50rem;
+    }
+    .name,.second-heading,.head-proj,.contact-h4 {
+        font-size: x-large;
+    }
+    .cards h4{
+        font-size: large;
+    }
+    .para-info,.para-proj,.our-services h4,.h4-about1,.para-about1,.show-more a,.social-icons .fa-brands{
+        font-size: large;
+    }
+    .our-services p,.cards p{
+        font-size: small;
+    }
+    .mypic{
+        width: 400px;
+    }
+    .proj-container{
+        max-width: 54rem;
+        margin: 2rem auto;
+    }
+   
+    .cards-container{
+        max-width: 54rem;
+        margin: 2rem auto;
+        gap: 1rem; 
+    }
+    .portfolio-cards{
+        max-width: 54rem;
+        margin: 2rem auto;
+        gap: 4rem;
+    }
+    .testi-container{
+        max-width: 54rem;
+        margin: 2rem auto;
+        gap: 1rem;
+    }
+    .contact1{
+        max-width: 54rem;
+        margin: 2rem auto;
+        gap: 4rem;
+        flex-basis: 50%;
+        flex-wrap: wrap;
+    }
+    .footer-container{
+        max-width: 54rem;
+        margin: 2rem auto;
+    }
+    header{
+        max-width: 54rem;
+    }
+    .nav-bar{
+        display: none;
+    }
+    .toggle-bar{
+        display: block;
+    }
+    .dropdown-menu{
+        display: block;
+    }
+    .queries-container{
+        display:flex;
+        gap: 4rem;
+        margin-top: -5rem;
+    }
+}
+@media (max-width:960px) {
+    .about{
+        max-width: 46rem;
+        margin: 2rem auto;
+        gap:2rem;
+        flex-basis: 50%;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .about1{
+        margin: 0 auto;
+        margin-right: 50rem;
+    }
+    .name,.second-heading,.head-proj,.contact-h4 {
+        font-size: x-large;
+    }
+    .cards h4{
+        font-size: large;
+    }
+    .para-info,.para-proj,.our-services h4,.h4-about1,.para-about1,.show-more a,.social-icons .fa-brands{
+        font-size: large;
+    }
+    .our-services p,.cards p{
+        font-size: small;
+    }
+    .mypic{
+        width: 400px;
+    }
+    .proj-container{
+        max-width: 46rem;
+        margin: 2rem auto;
+    }
+   
+    .cards-container{
+        max-width: 46rem;
+        margin: 2rem auto;
+        gap: 1rem; 
+        flex-basis: 50%;
+        flex-wrap: wrap;
+    }
+    .portfolio-cards{
+        max-width: 46rem;
+        margin: 2rem auto;
+        gap: 4rem;
+    }
+    .testi-container{
+        max-width: 46rem;
+        margin: 2rem auto;
+        gap: 1rem;
+    }
+    .contact1{
+        max-width: 46rem;
+        margin: 2rem auto;
+        gap: 4rem;
+        flex-basis: 50%;
+        flex-wrap: wrap;
+    }
+    .footer-container{
+        max-width: 46rem;
+        margin: 2rem auto;
+    }
+    header{
+        max-width: 46rem;
+    }
+    .nav-bar{
+        display: none;
+    }
+    .toggle-bar{
+        display: block;
+    }
+    .dropdown-menu{
+        display: block;
+    }
+    .queries-container{
+        display:flex;
+        gap: 4rem;
+        margin-top: -5rem;
+    }
+}
+@media (max-width:768px) {
+    .about{
+        max-width: 37rem;
+        margin: 2rem auto;
+        gap:2rem;
+        flex-basis: 50%;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .info{
+        margin-left: 8rem;
+    }
+    .about1{
+        margin: 0 auto;
+        margin-right: 10rem;
+    }
+    .proj-container{
+        flex-basis: 75%;
+        flex-wrap: wrap;
+        padding-left: 5rem;
+    }
+    .name,.second-heading,.head-proj,.contact-h4 {
+        font-size: x-large;
+    }
+    .cards h4{
+        font-size: large;
+    }
+    .para-info,.para-proj,.our-services h4,.h4-about1,.para-about1,.show-more a,.social-icons .fa-brands{
+        font-size: large;
+    }
+    .our-services p,.cards p{
+        font-size: small;
+    }
+    .mypic{
+        width: 400px;
+    }
+    .proj-container{
+        max-width: 37rem;
+        margin: 2rem auto;
+    }
+   
+    .cards-container{
+        max-width: 37rem;
+        margin: 2rem auto;
+        gap: 1rem; 
+        flex-basis: 50%;
+        flex-wrap: wrap;
+    }
+    .portfolio-cards{
+        max-width: 37rem;
+        margin: 2rem auto;
+        gap: 4rem;
+    }
+    .testi-container{
+        max-width: 37rem;
+        margin: 2rem auto;
+        gap: 1rem;
+        flex-basis: 75%;
+        flex-wrap: wrap;
+    }
+    .testi-pic{
+        padding-bottom: 8rem;
+        position: relative;
+        left: 8rem;
+    }
+    .contact1{
+        max-width: 37rem;
+        margin: 2rem auto;
+        gap: 4rem;
+        flex-basis: 50%;
+        flex-wrap: wrap;
+    }
+    .footer-container{
+        max-width: 37rem;
+        margin: 2rem auto;
+        gap:3rem;
+    }
+    header{
+        max-width: 37rem;
+    }
+    .nav-bar{
+        display: none;
+    }
+    .toggle-bar{
+        display: block;
+    }
+    .dropdown-menu{
+        display: block;
+    }
+    .queries-container{
+        display:flex;
+        gap: 4rem;
+        margin-top: -15rem;
+        flex-basis: 75%;
+        flex-wrap: wrap;
+    }
+    .form1{
+        position: relative;
+        bottom: 13rem;
+    }
+}
+@media (max-width:592px) {
+    .about{
+        max-width: 27rem;
+        margin: 2rem auto;
+        gap:2rem;
+        flex-basis: 50%;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .info{
+        margin-left: 8rem;
+    }
+    .about1{
+        margin: 0 auto;
+        margin-left: 7rem;
+    }
+    .proj-container{
+        flex-basis: 75%;
+        flex-wrap: wrap;
+        padding-left: 5rem;
+    }
+    .name,.second-heading,.head-proj,.contact-h4 {
+        font-size: x-large;
+    }
+    .cards h4{
+        font-size: large;
+    }
+    .para-info,.para-proj,.our-services h4,.h4-about1,.para-about1,.show-more a,.social-icons .fa-brands{
+        font-size: large;
+    }
+    .our-services p,.cards p{
+        font-size: small;
+    }
+    .mypic{
+        width: 400px;
+    }
+    .proj-container{
+        max-width: 27rem;
+        margin: 2rem auto;
+    }
+   
+    .cards-container{
+        max-width: 27rem;
+        margin: 2rem auto;
+        gap: 1rem; 
+        flex-basis: 50%;
+        flex-wrap: wrap;
+    }
+    .portfolio-cards{
+        max-width: 27rem;
+        margin: 2rem auto;
+        gap: 4rem;
+    }
+    .testi-container{
+        max-width: 27rem;
+        margin: 2rem auto;
+        gap: 1rem;
+        flex-basis: 75%;
+        flex-wrap: wrap;
+    }
+    .testi-pic{
+        padding-bottom: 8rem;
+        position: relative;
+        left: 4rem;
+    }
+    .contact1{
+        max-width: 27rem;
+        margin: 2rem auto;
+        gap: 4rem;
+        flex-basis: 50%;
+        flex-wrap: wrap;
+    }
+    .footer-container{
+        max-width: 27rem;
+        margin: 2rem auto;
+        gap:3rem;
+        flex-basis: 75%;
+        flex-wrap: wrap;
+    }
+    header{
+        max-width: 27rem;
+    }
+    .nav-bar{
+        display: none;
+    }
+    .toggle-bar{
+        display: block;
+    }
+    .dropdown-menu{
+        display: block;
+    }
+    .queries-container{
+        flex-basis: 75%;
+        flex-wrap: wrap;
+    }
+    .form1{
+        position: relative;
+        bottom: 13rem;
+    }
+}
