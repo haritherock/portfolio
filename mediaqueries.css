@@ -360,14 +360,12 @@
     }
    
     .cards-container{
-        max-width: 27rem;
         margin: 2rem auto;
         gap: 1rem; 
         flex-basis: 50%;
         flex-wrap: wrap;
     }
     .portfolio-cards{
-        max-width: 27rem;
         margin: 2rem auto;
         gap: 4rem;
     }
@@ -416,5 +414,113 @@
     .form1{
         position: relative;
         bottom: 13rem;
+    }
+}
+@media (max-width:462px) {
+    .about{
+        max-width: 17rem;
+        margin: 2rem auto;
+        gap:2rem;
+        flex-basis: 50%;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .info{
+        margin-left: 8rem;
+    }
+    .about1{
+        margin: 0 auto;
+        margin-left: 7rem;
+    }
+    .proj-container{
+        flex-basis: 75%;
+        flex-wrap: wrap;
+        padding-left: 5rem;
+    }
+    .name,.second-heading,.head-proj,.contact-h4 {
+        font-size: x-large;
+    }
+    .cards h4{
+        font-size: large;
+    }
+    .para-info,.para-proj,.our-services h4,.h4-about1,.para-about1,.show-more a,.social-icons .fa-brands{
+        font-size: large;
+    }
+    .our-services p,.cards p{
+        font-size: small;
+    }
+    .mypic{
+        width: 400px;
+    }
+    .proj-container{
+        max-width: 17rem;
+        margin: 2rem auto;
+    }
+   
+    .cards-container{
+        margin: 2rem auto;
+        gap: 1rem; 
+        flex-basis: 50%;
+        flex-wrap: wrap;
+    }
+    .portfolio-cards{
+        margin: 4rem auto;
+        gap: 4rem;
+    }
+    .testi-container{
+        max-width: 17rem;
+        margin: 2rem auto;
+        gap: 1rem;
+        flex-basis: 75%;
+        flex-wrap: wrap;
+    }
+    .testi-pic{
+        padding-bottom: 8rem;
+        position: relative;
+        left: 4rem;
+    }
+    .contact1{
+        max-width: 17rem;
+        margin: 2rem auto;
+        gap: 4rem;
+        flex-basis: 50%;
+        flex-wrap: wrap;
+    }
+    .footer-container{
+        max-width: 17rem;
+        margin: 2rem auto;
+        gap:3rem;
+        flex-basis: 75%;
+        flex-wrap: wrap;
+    }
+    header{
+        max-width: 17rem;
+    }
+    .nav-bar{
+        display: none;
+    }
+    .toggle-bar{
+        display: block;
+    }
+    .dropdown-menu{
+        display: block;
+    }
+    .queries-container{
+        flex-basis: 75%;
+        flex-wrap: wrap;
+    }
+    .form1{
+        position: relative;
+        bottom: 13rem;
+    }
+    .email-btn{
+        position: absolute;
+        padding: 15px 30px;
+        background-color: goldenrod;
+        border-radius: 10px;
+        left: 20.5rem;
+        border: 2px solid gray;
+        font-size: 14px;
+        color: black;
     }
 }

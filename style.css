@@ -90,7 +90,7 @@ a{
 
 .logo a{
     font-size: 2rem;
-    color: white;
+    color: goldenrod;
 }
 .icon {
     width: 30px;
@@ -445,31 +445,28 @@ a{
     padding-top: 4rem;
     height: 25rem;
 }
-.contact{
-    /* height: 25rem; */
-    border-bottom: 1px solid grey;
-}
+
 .contact1{
     width: 1300px;
     margin: 0 auto;
     display: flex;
     gap: 8rem;
+    border-bottom: 1px solid grey;
 }
 .form1{
     padding-top: 4rem;
 }
 form{
     line-height: 2rem;
-    height: 20rem;
 }
-input{
+form input{
     display: block;
     padding-bottom: 0.5rem;
     width: 410px;
     font-weight: 600;
     font-size: medium;
 }
-label{
+form label{
     color: goldenrod;
     display: block;
 }
@@ -488,6 +485,7 @@ textarea{
     cursor: pointer;
     color: goldenrod;
     background-color: rgb(42, 42, 56);
+    margin-bottom: 2rem;
 }
 .queries-container{
     padding-top: 4rem;
@@ -516,7 +514,7 @@ textarea{
 }
 .link-list li a{
     text-decoration: none;
-    color: goldenrod;
+    color: white;
 }
 .link-list li a:hover{
     color: white;
@@ -524,6 +522,7 @@ textarea{
 .link-list h5{
     font-size: medium;
     color: rgb(158, 148, 148);
+    padding-bottom: 1rem;
 }
 .footer-container{
     padding: 2rem 0;
@@ -531,6 +530,7 @@ textarea{
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    border-bottom: 2px solid grey;
 }
 .copyright{
     line-height: 1rem;
@@ -544,6 +544,61 @@ textarea{
     font-size: large;
     padding-top: 2rem;
 }
+.footer-container .logo{
+    padding-top: 3rem;
+}
 .logo a{
     text-decoration: none;
+}
+.newsletter p{
+    color: white;
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 1rem;
+}
+.email-news{
+    height: 50px;
+    margin-top: 1rem;
+}
+.email2{
+    height: 100%;
+    width: 450px;
+    padding-left: 50px;
+    font-size: 18px;
+    outline: none;
+    border-radius: 10px;
+    border: 2px solid gray;
+    background-color: black;
+    color: white;
+}
+.email-btn{
+    position: absolute;
+    padding: 15px 30px;
+    background-color: goldenrod;
+    border-radius: 10px;
+    left: 28.5rem;
+    border: 2px solid gray;
+    font-size: 14px;
+    color: black;
+}
+.toggle-bar1{
+    color: #2b2d42;
+}
+.email-icon{
+    position: relative;
+    right: 27.3rem;
+    top: 3px;
+    font-size: 24px;
+    color: grey;
+}
+.copyright-statement p span{
+    color: goldenrod;
+}
+.copyright-statement{
+    display: block;
+    color: white;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 16px;
+    text-align: center;
 }
