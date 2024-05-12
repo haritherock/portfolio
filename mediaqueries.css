@@ -556,11 +556,11 @@
         margin-left: -1rem;
     }
     .info{
-        margin-left: 8rem;
+        margin-left: 5rem;
     }
     .about1{
         margin: 0 auto;
-        margin-left: 7rem;
+        margin-left: 5rem;
     }
     .proj-container{
         width: 325px;
@@ -581,6 +581,7 @@
     }
     .mypic{
         width: 325px;
+        margin-left: 3rem;
     }
     .cards-container{
         margin: 2rem auto;
