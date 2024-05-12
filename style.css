@@ -121,6 +121,9 @@ a{
 .mypic{
     width: 460px;
     border-radius: 50%;
+    position: relative;
+    background-image: url('./assets/splash.png');
+    background-size: cover;
 }
 .para-info{
     font-size: 22px;
@@ -602,3 +605,15 @@ textarea{
     font-size: 16px;
     text-align: center;
 }
+:root {
+    --animate-duration: 800ms;
+    --animate-delay: 0.9s;
+  }
+  .btn-color-2 a{
+    text-decoration: none;
+    color: goldenrod;
+  }
+  .btn-color-1 a{
+    text-decoration: none;
+    color: black;
+  }
